@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>2.5D Cartoon TPS Prototype</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="ui">
+      <h1>2.5D Cartoon TPS Prototype</h1>
+      <p>Move with <strong>WASD</strong>, aim with the mouse, fire with <strong>Left Click</strong>, and switch weapons with <strong>1</strong> (quiet repeater) and <strong>2</strong> (loud thumper). Enemies react to gunshot noise based on weapon loudness.</p>
+      <div id="status"></div>
+    </div>
+    <canvas id="game" width="960" height="540" aria-label="2.5D shooter canvas"></canvas>
+    <script type="module" src="src/game.js"></script>
+  </body>
+</html>
